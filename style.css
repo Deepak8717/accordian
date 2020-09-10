@@ -1,0 +1,24 @@
+h4{
+	margin:0;
+}
+li div{
+	height: 0;
+	opacity: 0;
+	background:#F4F4F4;
+	transition: all 400ms ease;
+}
+
+li{
+	list-style: none;
+	width:200px;
+}
+
+li h4{
+	background:#B2EFFF;
+}
+
+li h4.active+div{
+	display: block;	
+	height: 40px;
+	opacity: 1;
+}
